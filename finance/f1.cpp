@@ -9,8 +9,8 @@ int main() {
     cin >> a;
     switch (a)
     {
-    case 1:
-        int main();{
+    case 1:                                                                                    //Thalla
+        int main();{ 
     float x, y;
     int age;
     cout << "Client Age:"; cin >> age;
@@ -55,11 +55,11 @@ int main() {
         }
         break;
     }
-    return 0; 
+    return 0;                                                                                //Thalla
 }
         break;
     
-    case 2:
+    case 2:                                                                                  //Stephen
     int main();{
     int category;
     float n,b;
@@ -90,7 +90,7 @@ case 5:
     cout << "Amount to be charged:" <<" Rs." << b <<"\nGST Charged: Rs." << n*0.28 ;
     break;  
 }
-return 0;
+return 0;                                                                                 //Stephen
 
 }
         break;
