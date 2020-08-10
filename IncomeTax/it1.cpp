@@ -3,11 +3,11 @@ using namespace std;
 
 int main(){
     float x, y;
-    string name;
+    string name, surname;
     int age;
-    cout << "Client Name:"; cin >> name;
+    cout << "Client Name:"; cin >> name >> surname;
     cout << "Client Age:"; cin >> age;
-    cout <<  "Hi!" << name << ", \nPlease enter you Annual Income:Rs."; cin >> x;
+    cout <<  "Hi!" << " " << name <<" " << surname << ", \nPlease enter you Annual Income:Rs."; cin >> x;
     while ((age<=60))
     {
     {
