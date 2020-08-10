@@ -3,18 +3,18 @@ using namespace std;
 
 int main() {
     int a;
-    cout << "How can I assist you today? \nI can calculate your Income and also help you in GST(Goods and Service Tax) \nPlease enter the service you want to avail: \n1.Income Tax \n2.GST (Goods and Service Tax) \n";
+    string name, surname;
+    cout << "Please enter your Full Name:"; cin >> name >> surname;
+    cout <<  "Hi!" << " " << name <<" " << surname << "\nHow can I assist you "<< name << " " << surname << "?" << "\nI can calculate your Income and also help you in GST(Goods and Service Tax) \nPlease enter the service you want to avail: \n1.Income Tax \n2.GST (Goods and Service Tax) \n";
     cin >> a;
     switch (a)
     {
     case 1:
         int main();{
     float x, y;
-    string name, surname;
     int age;
-    cout << "Please Enter Your Full Name:"; cin >> name >> surname;
     cout << "Client Age:"; cin >> age;
-    cout <<  "Hi!" << " " << name <<" " << surname << ", \nPlease enter you Annual Income:Rs."; cin >> x;
+    cout << name <<" " << surname << ", please enter your Annual Income:Rs."; cin >> x;
     while ((age<=60))
     {
     {
@@ -63,7 +63,7 @@ int main() {
     int main();{
     int category;
     float n,b;
-    cout << "Enter the amount(without tax):" ;
+    cout << name << " " << surname << ", please enter the Amount (without tax):" ;
     cin >> n;
     cout << "Enter type of product from the list below(number):" << "\n1.Essentials(Milk,Eggs,Ceral)" << "\n2.Slab 2 (Sugar,Spices,Tea)"<<"\n3.Slab 3 (Computers, Processed Food)" <<"\n4.Slab 4 (Mobiles, School Bags)" <<"\n5.Slab 5 (AC's, Luxury Item)"<<"\n" ;
     cin >> category;
