@@ -9,10 +9,22 @@ int main(){
     cin >> a;
     switch (a)
     {
-    case 1:                                                                                    //Thalla
+    case 1:                                                                                     //Thalla
         int main();{ 
-    float x;
+    float x, y, z;
     int age;
+    char input;
+    cout << "Are you a registered company";
+    cin >> input;
+    if (input=yes)
+    {
+        /* code */
+    }
+    else
+    {
+        /* code */
+    }
+    
     cout << "Client Age:"; cin >> age;
     cout << name <<" " << surname << ", please enter your Annual Income:Rs."; cin >> x;
     while ((age<=60))
@@ -63,7 +75,8 @@ int main(){
     
     
    break;
-    }
+    } break;
+
     }
     while (age>60 && age<=80)
     {
@@ -82,11 +95,20 @@ int main(){
         }
         while (x<= 500000 && x< 1000000)
         {
-            cout << "\nTax levied = 5% on taxable income between 3 - 5 lakhs and 20%";
-            
+            cout << "\nTax levied = 20%";
+            x = x - (x*0.2)*0.04;
+            cout << "\nFinal income (after deduction) is Rs. " << x;
             break;
             
         }
+        while (x>= 1000000)
+        {
+            cout << "\nTax levied= 30%";
+            x = x- (x*0.3)*0.04;
+            cout << "\nFinal income (after deduction) is Rs. " << x;
+            break;
+        }
+
         break;
     }
     while (age>80)
@@ -110,15 +132,12 @@ int main(){
             cout <<"Final Income (After deduction) is Rs." <<x;
             break;
         }
-        break;
-        
-
-        
+        break;  
     }
-    
-    return 0;                                                                                //Thalla
+    break; 
+                                                                               //Thalla
 }
-        break;
+    
     
     case 2:                                                                                  //Stephen
     int main();{
