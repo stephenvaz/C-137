@@ -1,7 +1,7 @@
 #include<iostream>
-using namespace std; session chat mein ja
+using namespace std;
 
-int main() {
+int main(){
     int a;
     string name, surname;
     cout << "Please enter your Full Name:"; cin >> name >> surname;
@@ -82,7 +82,10 @@ int main() {
         }
         while (x<= 500000 && x< 1000000)
         {
-            cout << "\nTax levied = 5% on taxable income between 3 - ";
+            cout << "\nTax levied = 5% on taxable income between 3 - 5 lakhs and 20%";
+            
+            break;
+            
         }
         break;
     }
@@ -98,12 +101,16 @@ int main() {
             cout << "Tax Levied = 20%";
             x=x-(x*0.2);
             cout << "Final Income (After Deduction)" <<x;
-            break
+            break;
         }
         while (x>=1000001)
         {
-            cout <<"Tax Levied = 30"
+            cout <<"Tax Levied = 30";
+            x=x-(x*0.3);
+            cout <<"Final Income (After deduction) is Rs." <<x;
+            break;
         }
+        break;
         
 
         
@@ -149,4 +156,4 @@ return 0;                                                                       
 }
         break;
     }
-}
+} 
