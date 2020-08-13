@@ -1,5 +1,5 @@
 #include<iostream>
-using namespace std;
+using namespace std; session chat mein ja
 
 int main() {
     int a;
@@ -74,14 +74,41 @@ int main() {
 
         }
         while (x>=300000 && x<500000)
-        {cout << "\nTax levied = 5% ";
-        x=x - x*0.05;
+        {cout << "\nTax levied = 5% + 4% Cess";
+        x=x - (x*0.05)*0.04;
         cout << "Final income (after deduction) is Rs. " << x;
         break;
 
         }
+        while (x<= 500000 && x< 1000000)
+        {
+            cout << "\nTax levied = 5% on taxable income between 3 - ";
+        }
         break;
     }
+    while (age>80)
+    {
+        while (x<=500000)
+        {
+            cout << "No Tax will be levied" << "\nFinal Income (After Deduction) is Rs." << x;
+            break;
+        }
+        while (x<=500001 && x>=1000000)
+        {
+            cout << "Tax Levied = 20%";
+            x=x-(x*0.2);
+            cout << "Final Income (After Deduction)" <<x;
+            break
+        }
+        while (x>=1000001)
+        {
+            cout <<"Tax Levied = 30"
+        }
+        
+
+        
+    }
+    
     return 0;                                                                                //Thalla
 }
         break;
