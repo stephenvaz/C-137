@@ -16,14 +16,6 @@ int main(){
     char input;
     cout << "Are you a registered company";
     cin >> input;
-    if (input=yes)
-    {
-        /* code */
-    }
-    else
-    {
-        /* code */
-    }
     
     cout << "Client Age:"; cin >> age;
     cout << name <<" " << surname << ", please enter your Annual Income:Rs."; cin >> x;
