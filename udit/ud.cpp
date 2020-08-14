@@ -5,8 +5,6 @@ int main(){
      const double Government_Rate = 0.15 ,STATE_RATE = 0.05,OVERTIME_RATE = 1.50;
       int hours;
       double rate, state , government, netPay, gross;
-      cout.setf(ios::fixed);
-      cout.setf(ios::showpoint);
       
 
       cout <<"Welcome to pay calculator";
@@ -42,7 +40,7 @@ int main(){
            << "Hours Worked: \t" << hours << endl 
            << "Gross Pay: \t" << gross << endl
            << "Government tax: " << government << " at 15%" << endl
-           << "State tax:  \t" << state << "at 5%" << endl
+           << "State tax:  \t" << state << " at 5%" << endl
            << "NetPay: \t" << netPay << endl;
 
 
