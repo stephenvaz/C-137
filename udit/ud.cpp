@@ -1,12 +1,5 @@
 #include <iostream>
 using namespace std;
-<<<<<<< HEAD
-void main(){
-     const double Government_Rate = 0.15, STATE_RATE = 0.05, OVERTIME_RATE = 1.5;
-
-     INT H
-     }
-=======
 int main(){
       float Government_Rate = 0.15 ,STATE_RATE = 0.05,OVERTIME_RATE = 1.50, rate, state, government, netPay, gross,hours;
       cout <<"Welcome to pay calculator";
@@ -44,4 +37,3 @@ int main(){
            << "State tax:  \t" << state << " at 5%" << endl
            << "NetPay: \t" << netPay << endl;
 }
->>>>>>> 14d57661bed81230ac5335267017bb222147aa71
