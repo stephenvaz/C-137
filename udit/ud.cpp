@@ -7,14 +7,14 @@ int main(){
       double rate, state , government, netPay, gross;
       cout.setf(ios::fixed);
       cout.setf(ios::showpoint);
-      cout.precision(2);
+      
 
-      cout <<"Welcome to pay calculator\n\n";
+      cout <<"Welcome to pay calculator";
 
        
       do
       {
-            cout << "Please enter a value between 10 and 20 for Hourly rate: ";
+            cout << "\nPlease enter a value between 10 and 20 for Hourly rate: ";
             cin >> rate;
 
       }while (rate < 10 || rate>20);
@@ -41,8 +41,8 @@ int main(){
            << "Hourly Rate: \t" << rate << endl
            << "Hours Worked: \t" << hours << endl 
            << "Gross Pay: \t" << gross << endl
-           << "Government tax: \t" << government << "at" << Government_Rate << endl
-           << "State tax:  \t" << state << "at" << STATE_RATE << endl
+           << "Government tax: " << government << " at 15%" << endl
+           << "State tax:  \t" << state << "at 5%" << endl
            << "NetPay: \t" << netPay << endl;
 
 
