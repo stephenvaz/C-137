@@ -5,18 +5,15 @@ int main(){
     int a;
     string name, surname;
     cout << "Please enter your Full Name:"; cin >> name >> surname;
-    cout <<  "Hi!" << " " << name <<" " << surname << "\nHow can I assist you "<< name << " " << surname << "?" << "\nI can calculate your Income and also help you in GST(Goods and Service Tax) \nPlease enter the service you want to avail: \n1.Income Tax \n2.GST (Goods and Service Tax) \n";
+    cout <<  "Hi!" << " " << name <<" " << surname << "\nHow can I assist you "<< name << " " << surname << "?" << "\nI can calculate your Income and also help you in GST(Goods and Service Tax) \nPlease enter the service you want to avail: \n1.Income Tax(Individual) \n2.Income Tax(Domestic Companies) \n3.GST (Goods and Service Tax) \n";
     cin >> a;
     switch (a)
+    
     {
-    case 1:                                                                                     //Thalla
-        int main();{ 
+    case 1:                                                                                    
+    int main();{ 
     float x, y, z;
     int age;
-    char input;
-    cout << "Are you a registered company";
-    cin >> input;
-    
     cout << "Client Age:"; cin >> age;
     cout << name <<" " << surname << ", please enter your Annual Income:Rs."; cin >> x;
     while ((age<=60))
@@ -119,7 +116,7 @@ int main(){
         }
         while (x>=1000001)
         {
-            cout <<"Tax Levied = 30";
+            cout <<"Tax Levied = 30%";
             x=x-(x*0.3);
             cout <<"Final Income (After deduction) is Rs." <<x;
             break;
@@ -127,11 +124,30 @@ int main(){
         break;  
     }
     break; 
-                                                                               //Thalla
-}
+                                                                        
+
+    case 2:
+    int main();{
+    cout << "Please enter you annual turn over:" << " Rs."; cin >> x;
+    if (x<=2500000000)
+    {
+        cout <<"Tax Levied = 25%";
+        x=x-(x*0.25);
+        cout<<"\nGross turnover (After Taxation) is Rs." <<x;
+    }
+    else
+    {
+        cout <<"Tax Levied = 30%";
+        x=x-(x*0.3);
+        cout<<"Gross turnover (After Deduction) is Rs." <<x;
+    }
+    break;
     
-    
-    case 2:                                                                                  //Stephen
+    }
+
+
+
+    case 3:                                                                                  
     int main();{
     int category;
     float n,b;
@@ -161,10 +177,9 @@ case 5:
     b= (n*0.28) + n;  
     cout << "Amount to be charged:" <<" Rs." << b <<"\nGST Charged: Rs." << n*0.28 ;
     break;  
-}
-return 0;                                                                                 //Stephen
+}                                                                              
 
 }
-        break;
+    break;
     }
-} 
+    }}
