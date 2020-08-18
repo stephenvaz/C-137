@@ -2,24 +2,6 @@
 using namespace std;
 
 int main(){
-<<<<<<< HEAD
-    int a,s,age;
-    float x;
-    string name, surname, company_name;
-    
-    cout <<  "Hi!" <<  "\nHow can I assist you "<< "?" << "\nI can calculate your Income and also help you in GST(Goods and Service Tax) \nPlease enter the service you want to avail: \n1.Income Tax \n2.GST (Goods and Service Tax) \n";
-    cin >> a;
-    switch (a)
-    
-    {
-    case 1:
-    cout << "1.Individual \n2.Domestic Company";
-    cin >> s;
-           switch (s){  case 1:
-                float y, z;
-    
-    cout << "\nPlease enter your Full Name:"; cin >> name >> surname;
-=======
    int a,x;
    string name, surname,company_name;
    cout <<  "Hi!" <<  "\nHow can I assist you "<< "?" << "\nI can calculate your Income and also help you in GST(Goods and Service Tax) \nPlease enter the service you want to avail: \n1.Income Tax \n2.GST (Goods and Service Tax) \n";
@@ -34,7 +16,6 @@ int main(){
        case 1:
     int age;
     cout << "Client Name: ";cin >> name>>surname;
->>>>>>> b1057c5108324e3847c26ad45d86803d0da08a7a
     cout << "Client Age:"; cin >> age;
     cout << name <<" " << surname << ", please enter your Annual Income:Rs."; cin >> x;
     while ((age<=60))
@@ -85,15 +66,9 @@ int main(){
     
     
    break;
-<<<<<<< HEAD
-    }
-
-
-=======
     } break;
 
     }
->>>>>>> b1057c5108324e3847c26ad45d86803d0da08a7a
     while (age>60 && age<=80)
     {
          while (x<300000)
@@ -147,91 +122,6 @@ int main(){
             x=x-(x*0.3);
             cout <<"Final Income (After deduction) is Rs." <<x;
             break;
-<<<<<<< HEAD
-        }break;} break;
-
-        case 2:
-        int main();
-        {
-            cout << "Comapny Name"; cin >> company_name;
-            cout << "Please enter your annual turn over: "<< "Rs."; cin >> x;
-            while (x <= 2500000000)
-            {
-                cout << "Tax levied = 25%";
-                x = x-(x*0.25);
-                cout << "\nGross turnover (after taxation) is Rs. " << x;
-                break;
-                /* code */
-            }
-            while (x > 2500000000){
-                cout << "Tax levied = 30%";
-                x = x - (x*0.3);
-                cout << "\nGross turnover (after taxation) is Rs. "<< x;
-
-
-                break;
-
-            } break;
-        
-            
-
-        }break;
-
-
-
-           }
-             
-        
-
-         break;
- case 2:                                                                                  
-    int main();{
-    int category;
-    float n,b;
-    cout << "Please enter your Full Name:"; cin >> name >> surname;
-    cout << name << " " << surname << ", please enter the Amount (without tax):" ;
-    cin >> n;
-    cout << "Enter type of product from the list below(number):" << "\n1.Essentials(Milk,Eggs,Ceral)" << "\n2.Slab 2 (Sugar,Spices,Tea)"<<"\n3.Slab 3 (Computers, Processed Food)" <<"\n4.Slab 4 (Mobiles, School Bags)" <<"\n5.Slab 5 (AC's, Luxury Item)"<<"\n" ;
-    cin >> category;
-switch (category)
-{
-case 1:
-    b=n;
-    cout << "Amount to be charged:" <<"Rs." << b <<"\nGST Charged: Rs.0" ;
-    break;
-
-case 2:
-    b= (n*0.05) + n;
-    cout << "Amount to be charged:" <<" Rs." << b <<"\nGST Charged: Rs." << n*0.05 ;
-    break;
-case 3:
-    b= (n*0.12) + n;
-    cout << "Amount to be charged:" <<" Rs." << b <<"\nGST Charged: Rs." << n*0.12;
-    break;
-case 4:
-    b= (n*0.18) + n;
-    cout << "Amount to be charged:" <<" Rs." << b <<"\nGST Charged: Rs." << n*0.18;
-case 5:
-    b= (n*0.28) + n;  
-    cout << "Amount to be charged:" <<" Rs." << b <<"\nGST Charged: Rs." << n*0.28 ;
-    break;  
-} break;
-    
-        }
-
- break;
- }
-
-
-
-}
-    
-    
-    
-
-
-   
-=======
         }
         break;  
     }
@@ -292,5 +182,4 @@ case 5:
        break;
    }
 }
->>>>>>> b1057c5108324e3847c26ad45d86803d0da08a7a
     
