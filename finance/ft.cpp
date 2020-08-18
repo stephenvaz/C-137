@@ -148,7 +148,37 @@ int main(){
        }
        break;
    
-   default:
+   case 2:
+   int category;
+    float n,c;
+    cout << "Client Name: " ;cin >> name >> surname;
+    cout << name << " " << surname << ", please enter the Amount (without tax):" ;
+    cin >> n;
+    cout << "Enter type of product from the list below(number):" << "\n1.Essentials(Milk,Eggs,Ceral)" << "\n2.Slab 2 (Sugar,Spices,Tea)"<<"\n3.Slab 3 (Computers, Processed Food)" <<"\n4.Slab 4 (Mobiles, School Bags)" <<"\n5.Slab 5 (AC's, Luxury Item)"<<"\n" ;
+    cin >> category;
+switch (category)
+{
+case 1:
+    c=n;
+    cout << "Amount to be charged:" <<"Rs." << c <<"\nGST Charged: Rs.0" ;
+    break;
+
+case 2:
+    c=(n*0.05) + n;
+    cout << "Amount to be charged:" <<" Rs." << c <<"\nGST Charged: Rs." << n*0.05 ;
+    break;
+case 3:
+    c=(n*0.12) + n;
+    cout << "Amount to be charged:" <<" Rs." << c <<"\nGST Charged: Rs." << n*0.12;
+    break;
+case 4:
+    c=(n*0.18) + n;
+    cout << "Amount to be charged:" <<" Rs." << c <<"\nGST Charged: Rs." << n*0.18;
+case 5:
+    c=(n*0.28) + n;  
+    cout << "Amount to be charged:" <<" Rs." << c <<"\nGST Charged: Rs." << n*0.28 ;
+    break;  
+}  
        break;
    }
 }
