@@ -14,9 +14,8 @@ int main(){
     case 1:
     cout << "1.Individual \n2.Domestic Company";
     cin >> s;
-    if (s=1)
-    {
-    float y, z;
+           switch (s){  case 1:
+                float y, z;
     
     cout << "\nPlease enter your Full Name:"; cin >> name >> surname;
     cout << "Client Age:"; cin >> age;
@@ -69,9 +68,9 @@ int main(){
     
     
    break;
-    }break;
+    }
 
-    }//60
+
     while (age>60 && age<=80)
     {
          while (x<300000)
@@ -125,50 +124,43 @@ int main(){
             x=x-(x*0.3);
             cout <<"Final Income (After deduction) is Rs." <<x;
             break;
-        }
-        break;  
-    }
-    if (s=2)
-    {
-         int main();{
-    cout << "Company Name:"; cin >> company_name;
-    cout << "Please enter you annual turn over:" << " Rs."; cin >> x;
-    if (x<=2500000000)
-    {
-        cout <<"Tax Levied = 25%";
-        x=x-(x*0.25);
-        cout<<"\nGross turnover (After Taxation) is Rs." <<x;
-    }
-    else
-    {
-        cout <<"Tax Levied = 30%";
-        x=x-(x*0.3);
-        cout<<"Gross turnover (After Deduction) is Rs." <<x;
-    }
-    
-        }
-    int main();{
-    cout << "Company Name:"; cin >> company_name;
-    cout << "Please enter you annual turn over:" << " Rs."; cin >> x;
-    if (x<=2500000000)
-    {
-        cout <<"Tax Levied = 25%";
-        x=x-(x*0.25);
-        cout<<"\nGross turnover (After Taxation) is Rs." <<x;
-    }
-    else
-    {
-        cout <<"Tax Levied = 30%";
-        x=x-(x*0.3);
-        cout<<"Gross turnover (After Deduction) is Rs." <<x;
-    }
-    
-    
-    }
-    }
+        }break;} break;
+
+        case 2:
+        int main();
+        {
+            cout << "Comapny Name"; cin >> company_name;
+            cout << "Please enter your annual turn over: "<< "Rs."; cin >> x;
+            while (x <= 2500000000)
+            {
+                cout << "Tax levied = 25%";
+                x = x-(x*0.25);
+                cout << "\nGross turnover (after taxation) is Rs. " << x;
+                break;
+                /* code */
+            }
+            while (x > 2500000000){
+                cout << "Tax levied = 30%";
+                x = x - (x*0.3);
+                cout << "\nGross turnover (after taxation) is Rs. "<< x;
 
 
-    case 2:                                                                                  
+                break;
+
+            } break;
+        
+            
+
+        }break;
+
+
+
+           }
+             
+        
+
+         break;
+ case 2:                                                                                  
     int main();{
     int category;
     float n,b;
@@ -200,9 +192,19 @@ case 5:
     cout << "Amount to be charged:" <<" Rs." << b <<"\nGST Charged: Rs." << n*0.28 ;
     break;  
 } break;
-                                                                              
+    
+        }
+
+ break;
+ }
+
+
 
 }
-    break;
-}
-    }
+    
+    
+    
+
+
+   
+    
