@@ -2,6 +2,7 @@
 using namespace std;
 
 int main(){
+<<<<<<< HEAD
     int a,s,age;
     float x;
     string name, surname, company_name;
@@ -18,9 +19,25 @@ int main(){
                 float y, z;
     
     cout << "\nPlease enter your Full Name:"; cin >> name >> surname;
+=======
+   int a,x;
+   string name, surname,company_name;
+   cout <<  "Hi!" <<  "\nHow can I assist you "<< "?" << "\nI can calculate your Income and also help you in GST(Goods and Service Tax) \nPlease enter the service you want to avail: \n1.Income Tax \n2.GST (Goods and Service Tax) \n";
+   cin >> a;
+   switch (a)
+   {
+   case 1:
+   int b;
+   cout << "1.Individual \n2.Domestic Comapnies"; cin >> b ;
+       switch (b)
+       {
+       case 1:
+    int age;
+    cout << "Client Name: ";cin >> name>>surname;
+>>>>>>> b1057c5108324e3847c26ad45d86803d0da08a7a
     cout << "Client Age:"; cin >> age;
     cout << name <<" " << surname << ", please enter your Annual Income:Rs."; cin >> x;
-    while ((age<=60))  //60
+    while ((age<=60))
     {
     {
         while (x<=250000)
@@ -64,13 +81,19 @@ int main(){
         cout << "Tax Levied= 30% + 187500" << "\nFinal Income (After Deduction) is Rs." << x; 
         break;
     }
-    cout << "\nWant to save some tax? \nPlease stay tuned for further releases";}
+    cout << "\nWant to save some tax? \nPlease stay tuned for further releases";
     
     
    break;
+<<<<<<< HEAD
     }
 
 
+=======
+    } break;
+
+    }
+>>>>>>> b1057c5108324e3847c26ad45d86803d0da08a7a
     while (age>60 && age<=80)
     {
          while (x<300000)
@@ -124,6 +147,7 @@ int main(){
             x=x-(x*0.3);
             cout <<"Final Income (After deduction) is Rs." <<x;
             break;
+<<<<<<< HEAD
         }break;} break;
 
         case 2:
@@ -207,4 +231,36 @@ case 5:
 
 
    
+=======
+        }
+        break;  
+    }
+           break;
+       
+       case 2:
+    cout << "Company Name: "; cin >> company_name;
+    cout << "Please enter you annual turn over:" << " Rs."; cin >> x;
+    if (x<=2500000000)
+    {
+        cout <<"Tax Levied = 25%";
+        x=x-(x*0.25);
+        cout<<"\nGross turnover (After Taxation) is Rs." <<x;
+    }
+    else
+    {
+        cout <<"Tax Levied = 30%";
+        x=x-(x*0.3);
+        cout<<"Gross turnover (After Deduction) is Rs." <<x;
+    }
+    break;
+    
+           break;
+       }
+       break;
+   
+   default:
+       break;
+   }
+}
+>>>>>>> b1057c5108324e3847c26ad45d86803d0da08a7a
     
