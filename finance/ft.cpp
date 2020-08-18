@@ -175,7 +175,7 @@ case 4:
     c=(n*0.18) + n;
     cout << "Amount to be charged:" <<" Rs." << c <<"\nGST Charged: Rs." << n*0.18;
 case 5:
-    c=(n*0.28) + n;  
+    c= (n*0.28) + n;  
     cout << "Amount to be charged:" <<" Rs." << c <<"\nGST Charged: Rs." << n*0.28 ;
     break;  
 }  
