@@ -2,7 +2,8 @@
 using namespace std;
 
 int main(){
-   int a,x;
+   int a;
+   float x;
    string name, surname,company_name;
    cout <<  "Hi!" <<  "\nHow can I assist you "<< "?" << "\nI can calculate your Income and also help you in GST(Goods and Service Tax) \nPlease enter the service you want to avail: \n1.Income Tax \n2.GST (Goods and Service Tax) \n";
    cin >> a;
@@ -10,13 +11,13 @@ int main(){
    {
    case 1:
    int b;
-   cout << "1.Individual \n2.Domestic Comapnies"; cin >> b ;
+   cout << "1.Individual \n2.Domestic Comapnies \n"; cin >> b ;
        switch (b)
        {
        case 1:
     int age;
     cout << "Client Name: ";cin >> name>>surname;
-    cout << "Client Age:"; cin >> age;
+    cout << "Client Age: "; cin >> age;
     cout << name <<" " << surname << ", please enter your Annual Income:Rs."; cin >> x;
     while ((age<=60))
     {
