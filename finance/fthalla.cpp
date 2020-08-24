@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
+void myfunction() {
 
-int main(){
     int a,s,age,x;
     string name, surname, company_name;
     
@@ -128,18 +128,18 @@ int main(){
         case 2:
         int main();
         {
-            cout << "Comapny Name: "; cin >> company_name;
-            cout << "Please enter your annual turn over: "<< "Rs."; cin >> x;
+            cout << "\nComapny Name: "; cin >> company_name;
+            cout << "\nPlease enter your annual turn over: "<< "Rs."; cin >> x;
             while (x <= 2500000000)
             {
-                cout << "Tax levied = 25%";
+                cout << "\nTax levied = 25%";
                 x = x-(x*0.25);
                 cout << "\nGross turnover (after taxation) is Rs. " << x;
                 break;
                 /* code */
             }
             while (x > 2500000000){
-                cout << "Tax levied = 30%";
+                cout << "\nTax levied = 30%";
                 x = x - (x*0.3);
                 cout << "\nGross turnover (after taxation) is Rs. "<< x;
 
@@ -197,11 +197,21 @@ case 5:
  break;
  }
 
+;
+
+
+}
+
+int main () {
+    cout << "\n";
+    
+    myfunction();
+    myfunction();
 
 
 }
     
-    
+
     
 
 
