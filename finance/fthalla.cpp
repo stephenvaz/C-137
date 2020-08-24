@@ -5,7 +5,7 @@ void myfunction() {
     int a,s,age,x;
     string name, surname, company_name;
     
-    cout <<  "Hi!" <<  "\nHow can I assist you "<< "?" << "\nI can calculate your Income and also help you in GST(Goods and Service Tax) \nPlease enter the service you want to avail: \n1.Income Tax \n2.GST (Goods and Service Tax) \n";
+    cout <<  "\nHi!" <<  "\nHow can I assist you "<< "?" << "\nI can calculate your Income and also help you in GST(Goods and Service Tax) \nPlease enter the service you want to avail: \n1.Income Tax \n2.GST (Goods and Service Tax) \n";
     cin >> a;
     switch (a)
     
@@ -17,7 +17,7 @@ void myfunction() {
                 float y, z;
     
     cout << "\nPlease enter your Full Name:"; cin >> name >> surname;
-    cout << "Client Age:"; cin >> age;
+    cout << "\nClient Age:"; cin >> age;
     cout << name <<" " << surname << ", please enter your Annual Income:Rs."; cin >> x;
     while ((age<=60))  //60
     {
@@ -205,6 +205,7 @@ case 5:
 int main () {
     cout << "\n";
     
+    myfunction();
     myfunction();
     myfunction();
 
