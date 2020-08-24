@@ -4,7 +4,7 @@ int main() {
      float f , c;
     char option ;
 
-    cout << "Choose the option for desired conversion: \n\n " ;
+    cout << "Choose the option for desired conversion: \n\n" ;
 
     cout << "1. Celsius to Fahrenheit.\n" ;
     cout << "2. Fahrenheit to Celsius.\n" ;  
@@ -17,15 +17,15 @@ if  (option == '1')
     cin >> c;
     
     f = (1.8 * c) + 32.0;
-    cout << "The Temperature in Fahrenheit is : " << f << "F\n" ;
+    cout << "The Temperature in Fahrenheit is : " << f << " F\n" ;
 }
 
 else if (option == '2'){
-    cout << "Enter The Temperatuere In Degree Fahrenheit" ;
+    cout << "Enter The Temperatuere In Degree Fahrenheit\n" ;
     cin >> f ;
 
     c = (f - 32) / 1.8 ;
-    cout << "The Temperature In Degree Celsius : " << c << "c\n";
+    cout << "The Temperature In Degree Celsius : " << c << "C\n";
 
 }
 
