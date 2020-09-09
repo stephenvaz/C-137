@@ -3,7 +3,7 @@ using namespace std;
 void myfunction(){
     int main (); {
 
-    cout << " Hello World!";
+    cout << " Hello World!\n";
 
 
 }
@@ -14,6 +14,8 @@ void myfunction(){
 int main (){
     myfunction();
     myfunction();
+    myfunction();
+
     return 0;
     
 }
