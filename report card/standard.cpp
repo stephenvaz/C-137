@@ -1,4 +1,4 @@
-#include <iostreeam>
+#include <iostream>
 #include <cmath>
 using namespace std;
 
@@ -20,19 +20,19 @@ int main()
     case 1:
         {
             cout<<"Enter the grade of the student: ";
-            cin>>grade;
+            cin>>g;
             cout<<"\n";
         }
         break;
     case 2:
         {
             cout<<"Enter the grade of the student: ";
-            cin>>g;
+            cin>>grade;
             cout<<"\n";
         }
     default:
     {
-        cout<<"Wrong input! Please enter 1 or 2."
+        cout<<"Wrong input! Please enter 1 or 2.";
         cout<<"\n";
     }
         break;
