@@ -8,7 +8,7 @@ int main() {
 	int grade;
 	char div;
 	cout << "Hello! Please enter the details of the student along with their marks.";
-	cout << "Name of the student: ";
+	cout << "\nName of the student: ";
 	getline(cin, name);
 	cout << "\nGrade: ";
 	cin >> grade;
