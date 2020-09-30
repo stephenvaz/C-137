@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    int a,null;
+    int a;
     string name, surname;
     cout << "Please enter your Full Name:"; cin >> name >> surname;
     cout <<  "Hi!" << " " << name <<" " << surname << "\nHow can I assist you "<< name << " " << surname << "?" << "\nI can calculate your Income and also help you in GST(Goods and Service Tax) \nPlease enter the service you want to avail: \n1.Income Tax(Individual) \n2.Income Tax(Domestic Companies) \n3.GST (Goods and Service Tax) \n";

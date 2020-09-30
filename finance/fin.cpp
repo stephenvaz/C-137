@@ -182,5 +182,6 @@ case 5:
 }  
        break;
    }
+    cout << "\nCredits:- \nAtharv Salian~Income Tax(Individual) \nStephen Vaz~Income Tax(Domestic) & GST " <<endl ; system("pause");
 }
     
