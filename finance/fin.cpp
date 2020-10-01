@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
    int a;
-   float x;
+   int x;
    string name, surname,company_name;
    cout <<  "Hi!" <<  "\nHow can I assist you "<< "?" << "\nI can calculate your Income and also help you in GST(Goods and Service Tax) \nPlease enter the service you want to avail: \n1.Income Tax \n2.GST (Goods and Service Tax) \n";
    cin >> a;
@@ -182,6 +182,6 @@ case 5:
 }  
        break;
    }
-    cout << "\nCredits:- \nAtharv Salian~Income Tax(Individual) \nStephen Vaz~Income Tax(Domestic) & GST " <<endl ; system("pause");
+    cout << "\n\nCredits:- \nAtharv Salian~Income Tax(Individual) \nStephen Vaz~Income Tax(Domestic) & GST " <<endl ; system("pause");
 }
     
