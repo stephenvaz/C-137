@@ -1,4 +1,5 @@
-#include<iostream>
+#include<iostream> 
+#include <unistd.h> 
 using namespace std;
 
 int main(){
@@ -18,7 +19,7 @@ int main(){
     int age;
     cout << "Client Name: ";cin >> name>>surname;
     cout << "Client Age: "; cin >> age;
-    cout << name <<" " << surname << ", please enter your Annual Income:Rs."; cin >> x;
+    cout << name <<" " << surname << ", please enter your Annual Income:Rs."; cin >> x; cout << "Calculating" ; sleep(2); cout << " ."; sleep(1) ; cout << "."; sleep(2); cout << "."; sleep(1); 
     while ((age<=60))
     {
     {
