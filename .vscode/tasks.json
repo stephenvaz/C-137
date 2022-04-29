@@ -3,13 +3,14 @@
         {
             "type": "shell",
             "label": "C/C++: g++.exe build active file",
-            "command": "D:\\MinGW\\bin\\g++.exe",
-            "args": [
-                "-g",
-                "${file}",
-                "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
-            ],
+            "command": "D:\\MinGW\\bin\\g++.exe ${file} -o .\\excs\\${fileBasenameNoExtension} && .\\excs\\${fileBasenameNoExtension}",
+            // "args": [
+            //     "-g",
+            //     "${file}",
+            //     "-o",
+            //     "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            //     "&& .\\${fileDirname}\\${fileBasenameNoExtension}.exe"
+            // ],
             "options": {
                 "cwd": "${workspaceFolder}"
             },
